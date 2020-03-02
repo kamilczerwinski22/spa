@@ -1,5 +1,5 @@
 function isCar(car1, car2, car3) {
-    if (car1 == car2 == car3) {
+    if (car1 === car2 === car3) {
         return true;
     } else {
         return false;
