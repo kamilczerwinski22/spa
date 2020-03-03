@@ -1,6 +1,5 @@
-let arr = [2, 6, 10, 14];
-let i = 0;
-while (i < 4){
-    console.log(arr[i]);
-    i++;
+i = 2
+while (i <= 14){
+    console.log(i);
+    i += 4;
 }

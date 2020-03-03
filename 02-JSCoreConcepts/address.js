@@ -1,6 +1,4 @@
 
-
-
 title = "dr";
 name = "Mateusz";
 surname = 'Kubicki';
@@ -9,18 +7,9 @@ city = 'Kraków';
 zip = '30-781';
 country = 'Poland';
 
-console.log(title);
-console.log(name);
-console.log(surname);
-console.log(street);
-console.log(city);
-console.log(zip);
-console.log(country);
-
-console.log(title + " " + name + " " + 
-            surname + " " + street + " " + 
-            city + " " + zip + " " + 
-            country);
+console.log(title + " " + name + " " + surname + "\nul. " + street + "\n" + zip + " " + city + "\n" + country.toUpperCase())
+console.log("\n")
+console.log(`${title} ${name} ${surname}\nul. ${street}\n${zip} ${city}\n${country.toUpperCase()}`)
 
 /* 
 dr Mateusz Kubicki

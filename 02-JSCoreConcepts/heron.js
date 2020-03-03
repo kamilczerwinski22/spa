@@ -1,13 +1,13 @@
 // boki trójkąta
-// a = 3;
-b = 4;
-c = 5;
-h = 7
-p = (b + c + h) * (1/2)
-console.log(p)
-pole = Math.sqrt(p * (p - b) * (p - c) * (p - h))
-// Pole trókąta o bokach ..., ... oraz ... wynosi ... .
-console.log(pole)
-let a = () => "aaaa";
+a = 4;
+b = 5;
+c = 7
 
-console.log( a() );
+
+let pole = (a, b, c) => {
+    p = (a + b + c)/2;
+    pol = Math.sqrt(p * (p - a) * (p - b) * (p - c));
+    return `Pole trókąta o bokach ${a}, ${b} oraz ${c} wynosi ${pol} .`
+};
+
+console.log( pole(a, b, c) );

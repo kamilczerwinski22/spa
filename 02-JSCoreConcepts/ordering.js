@@ -10,8 +10,7 @@ const sort = function(arr) {
 }
 
 const even = function(arr) {
-    return arr.filter((x) => {return x % 2 == 0})
-    //return arr.filter(x => x%2==0)
+    return arr.filter( x => x%2 == 0 )
 }
 
 numbers = [8,3,2,1,5,4,6];
